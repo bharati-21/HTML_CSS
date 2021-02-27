@@ -4,20 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML Graphics: Audios and Videos </title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-        <script type="text/javascript">
-            var flashvars = {};
-            var params = {movie:"../video/puppy.flv"};
-            swfobject.embedSWF("flash/splayer.swf", "snow", "400", "320", "8.0.0", flashvars, params);
-        </script>
+        <title>HTML Graphics: Videos and Audios</title>
+        
     </head>
     <body>
-        <video poster="images/puppy.jpg" width="400" height="320" controls="controls">
-            <source src="https://www.youtube.com/watch?v=k5DEffQLIa8"/>
-            <div id="snow">
-                <p>You cannot see this video of a puppy playing in the snow because this browser does not support our video formats.</p>
-            </div>
+        <h2>Adding Video Files using video tag</h2>
+        <video controls width="400" height="300">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
         </video>
+
+        <h2>Adding Video Files using audio tag</h2>
+        <audio controls>
+            <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_1MG.wav" type="audio/wav">
+        </audio>
+
+        <h2>Using embed tag to embed YouTube files</h2>
+        <iframe width="965" height="506" src="https://www.youtube.com/embed/Xm4BObh4MhI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
 </html>
