@@ -1,0 +1,41 @@
+body {
+    background-color: url('http://www.htmlandcssbook.com/code-samples/chapter-16/images/backdrop.gif');
+    background-repeat: repeat;
+    color: #665544;
+    background-color: #d4d0c6;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+img.logo {
+    margin: 20px auto 5px auto;
+    display: inline-block;
+}
+
+#header p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#main {
+    margin: 30px 15%;
+}
+
+#main figure {
+    display: inline-block;
+    background-color: #e7e3d8;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    border-radius: 5px;
+    border: 1px solid rgba(78, 3, 3, 0.603);
+    text-align: left;
+}
+
+figcaption {
+    background-image: url(http://www.htmlandcssbook.com/code-samples/chapter-16/images/icon.png);
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
