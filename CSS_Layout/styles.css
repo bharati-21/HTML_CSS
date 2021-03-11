@@ -28,19 +28,24 @@ a:hover {
 
 #header {
     background-image: url('Images/bg-header.jpg');
-    padding: 0px 0px 0px 0px;
     width: 100%;
-    margin: 0;
+    width: 100%;
+    min-width: 600px;
     height: 100px;    
 }
 
+.header-triangle {
+    margin: 0;
+    padding: 0;
+}
+
 #logo {
-    display: inline-block;
+    display:inline-block;
 }
 
 
 .logo {
-    margin: 0 12px 20px 20px;
+    margin: 30px 20px;
 } 
 
 #nav-bar {
@@ -52,14 +57,15 @@ a:hover {
 }
 
 #wrapper {
-    background-image: url('Images/bg-triangle.png');
-    margin: 0px auto; 
-    height: 570px;
-    background-repeat: no-repeat;
-    background-position: 0 -100px;
+    width: 100%;
 }
 
-
+#triangles-img {
+    background-image: url('Images/bg-triangle.png');
+    height: 480px;
+    background-repeat: no-repeat;
+    background-position: 7px -100px;
+}
 
 h1, h2 {
     font-family: QuicksandBook, Helvetica, Arial, sans-serif;
@@ -67,26 +73,34 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-
 #main-content {
-    width: 500px;
-    float: right;
+    margin: 0 20px;
+    padding: 0;
+    width: 100%;
+}
+
+#heading {
+    padding: 0;
+    margin: 0;
+    font-size: 240%;
 }
 
 #intro {
-    font-size: 75%;
+    font-size: 12px;
+    clear: left;
     line-height: 1.4em;
 }
 
 .date {
     font-family: Arial, Helvetica, sans-serif;
     color: #b5c1ad;
+    font-size: 16px;
 }
 
 .triangles {
     position: relative;
     top: 42px;
-    left: 122px;
+    left: 130px;
 }
 
 
