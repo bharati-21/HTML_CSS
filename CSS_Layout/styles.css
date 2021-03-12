@@ -30,8 +30,8 @@ a:hover {
     background-image: url('Images/bg-header.jpg');
     width: 100%;
     width: 100%;
-    min-width: 600px;
-    height: 100px;    
+    height: 100px;
+    min-width: 900px;    
 }
 
 .header-triangle {
@@ -67,6 +67,13 @@ a:hover {
     background-position: 7px -100px;
 }
 
+.triangles {
+    position: relative;
+    top: 42px;
+    left: 130px;
+}
+
+
 h1, h2 {
     font-family: QuicksandBook, Helvetica, Arial, sans-serif;
     font-weight: normal;
@@ -74,9 +81,9 @@ h1, h2 {
 }
 
 #main-content {
-    margin: 0 20px;
-    padding: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 10px;
 }
 
 #heading {
@@ -97,11 +104,41 @@ h1, h2 {
     font-size: 16px;
 }
 
-.triangles {
-    position: relative;
-    top: 42px;
-    left: 130px;
+#more-articles {
+    margin: 10px auto;
+    width: 1200px;
+    margin: 0 auto;
+}   
+
+#more {
+    display: inline-block;
+    margin: 10px 30px 30px 0;
+    width: 270px;
+    text-align: center;
+    border: 2px solid white;
 }
+
+#more img {
+    width: 220px;
+    height: 130px;
+    padding: 10px 0 0 0;
+}
+
+#more:first-child {
+    margin-left: 0;
+}
+
+#more:last-child {
+    margin-right: 0;
+}
+
+#more p {
+    text-align: left;
+    font-size: 13px;
+    width: 210px;
+    padding: 0px 25px;
+}
+
 
 
 
