@@ -5,27 +5,18 @@
 
 body {
     margin: 10px;
+    margin: 0 auto;
     background-color: #eee;
 }
 
-#page {
-    margin: 0 auto;
-}
-
 header h1{
+    margin: 10px;
     background-color: #333;
-    text-align: center;
     color: #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
     font-size: 60px;
     border-radius: 10px;
-    margin: 10px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.row, .row-reverse, .column, .column-reverse  {
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid #333;
 }
 
 section {
@@ -34,6 +25,12 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     width: fit-content;
+}
+
+.row, .row-reverse, .column, .column-reverse , article {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
 }
 
 h1 {
@@ -108,4 +105,33 @@ h2 {
     flex-wrap: wrap-reverse;
 }
 
+.justify-content div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
 
