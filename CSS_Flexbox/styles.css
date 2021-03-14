@@ -9,106 +9,151 @@ body {
     background-color: #eee;
 }
 
-header h1{
+#page {
+    margin: 10px auto;
+}
+
+/* HEADER */
+header {
+    padding:0;
     margin: 10px;
     background-color: #333;
-    color: #eee;
-    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 60px;
     border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #eee;
 }
 
+header h1{
+    margin: 0;
+    font-size: 50px;
+    padding: 10px 0 0 0;  
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 0 0 10px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color:rgb(247, 247, 58);
+    background-color:rgb(238, 117, 95);
+}
+
+.current-link {
+    color: #000;
+    background-color: #eee;
+}
+
+/* ----------------------------------------------------------- */
+
+/* SECTION */
 section {
     margin: 20px;
-    display: inline-flex;
-    flex-direction: row;
+    display:flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: fit-content;
+    flex-direction: row;
 }
 
-.row, .row-reverse, .column, .column-reverse , article {
+section article {
     padding: 20px;
     margin: 10px;
     border: 2px solid #333;
 }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
 section article div {
     margin: 10px;
-    background-color: rgb(240, 89, 62);
     padding: 10px;
     height: 300px;
     width: 500px;
+    background-color: rgb(240, 89, 62);
     border-radius: 10px;
+
+    /* DEFAULT FLEX SETTINGS */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 h2 {
     background-color: rgb(255, 255, 101);
+    margin: 10px;
+    padding: 10px;
     width: 100px;
     height: 100px;
-    margin: 10px;
     border-radius: 10px;
-    padding: 10px;
 }
 
 #row-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 #row-wrap-reverse {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap-reverse;
 }
 
 #row-reverse-wrap {
-    display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
 }
 
 #row-reverse-wrap-reverse {
-    display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
 
 #column-wrap {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 #column-wrap-reverse {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
 }
 
 #column-reverse-wrap {
-    display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
 }
 
 #column-reverse-wrap-reverse {
-    display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
 }
 
-.justify-content div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+/* justify.html */
+
+/* SECTION */
+
+#justify-content {
+    margin: 20px auto;
+}
+
+#justify-content article {
+    display: inline;
 }
 
 .flex-start {
