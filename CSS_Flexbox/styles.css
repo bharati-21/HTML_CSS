@@ -224,3 +224,41 @@ h2 {
 .align-baseline {
     align-items: baseline;
 }
+
+/* -------------------------------------------------------- */
+/* align-content.html */
+
+#align-content article div {
+    flex-wrap: wrap;
+    height: 400px;
+    width: 700px;    
+}
+
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.align-content-space-btw {
+    align-content: space-between;
+}
+
+.align-content-space-ar {
+    align-content: space-around;
+}
+
+.align-content-space-even {
+    align-content: space-evenly;
+}
+
