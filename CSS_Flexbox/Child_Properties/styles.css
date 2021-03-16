@@ -109,3 +109,24 @@ h2 {
     border-radius: 10px;
 }
 
+/* ----------------------------------------------------------- */
+/* order.html */
+#two {
+    order: 2;
+}
+
+#minus-one {
+    order: -1;
+}
+
+#nine {
+    order: 9;
+}
+
+#minus-ten {
+    order: -10;
+}
+
+#zero {
+    order: 0;
+}
