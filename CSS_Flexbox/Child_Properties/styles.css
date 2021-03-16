@@ -83,8 +83,6 @@ section article {
 section article div {
     margin: 10px;
     padding: 10px;
-    height: 300px;
-    width: 500px;
     background-color: #3b0249;
     border-radius: 10px;
 
@@ -109,24 +107,48 @@ h2 {
     border-radius: 10px;
 }
 
-/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- 
+*/
 /* order.html */
-#two {
+.order div {
+    height: 300px;
+    width: 500px;
+}
+
+.order div #two {
     order: 2;
 }
 
-#minus-one {
+.order div #minus-one {
     order: -1;
 }
 
-#nine {
+.order div #nine {
     order: 9;
 }
 
-#minus-ten {
+.order div #minus-ten {
     order: -10;
 }
 
-#zero {
+.order div #zero {
     order: 0;
+}
+
+/* ----------------------------------------------------------- 
+*/
+/* order.html */
+
+.flex-grow div {
+    height: 300px;
+    width: 600px;
+    
+}
+
+.flex-grow div #two {
+    flex-grow: 2;
+}
+
+.flex-grow div #three {
+    flex-grow: 3;
 }
