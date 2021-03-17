@@ -218,3 +218,38 @@ h2 {
 .flex div #inherit {
     flex: inherit;
 }
+
+/* ----------------------------------------------------------- 
+*/
+/* align-self.html */
+
+.align-self div {
+    width: 800px;
+    height: 500px;
+    align-items: flex-start;
+}
+
+#align-self-auto {
+    align-self: auto;
+}
+
+#align-self-start {
+    align-self: flex-start;
+}
+
+#align-self-end {
+    align-self: flex-end;
+}
+
+#align-self-center {
+    align-self: center;
+}
+
+
+#align-self-baseline {
+    align-self: baseline;
+}
+
+#align-self-stretch {
+    align-self: stretch;
+}
