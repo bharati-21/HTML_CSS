@@ -166,3 +166,26 @@ h2 {
     flex-shrink: 3;
     width: 100px;
 }
+
+/* ----------------------------------------------------------- 
+*/
+/* flex-basis.html */
+.flex-basis #pixels {
+    flex-basis: 200px;
+}
+
+.flex-basis #auto {
+    flex-basis: auto;
+}
+
+.flex-basis #percent {
+    flex-basis: 5%;
+}
+
+.flex-basis #initial {
+    flex-basis: initial;
+}
+
+.flex-basis #inherit {
+    flex-basis: inherit;
+}
