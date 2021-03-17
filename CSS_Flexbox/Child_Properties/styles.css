@@ -137,7 +137,7 @@ h2 {
 
 /* ----------------------------------------------------------- 
 */
-/* order.html */
+/* flex-grow.html */
 
 .flex-grow div {
     height: 300px;
@@ -151,4 +151,18 @@ h2 {
 
 .flex-grow div #three {
     flex-grow: 3;
+}
+
+/* ----------------------------------------------------------- 
+*/
+/* flex-shrink.html */
+.flex-shrink div {
+    height: 300px;
+    width: 500px;
+    flex-wrap: nowrap;
+
+}
+.flex-shrink div #three {
+    flex-shrink: 3;
+    width: 100px;
 }
