@@ -189,3 +189,32 @@ h2 {
 .flex-basis #inherit {
     flex-basis: inherit;
 }
+
+/* ----------------------------------------------------------- 
+*/
+/* flex.html */
+
+.flex div {
+    width: 500px;
+}
+
+.flex div #none {
+    flex: none;
+}
+
+.flex div h2:nth-child(2) {
+    flex: 70%;
+}
+
+.flex div h2:nth-child(3) {
+    flex: 5 25px;
+}
+
+.flex div h2:nth-child(4) {
+    flex: 0 6;
+    width: 700px;
+}
+
+.flex div #inherit {
+    flex: inherit;
+}
