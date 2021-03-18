@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    color: #000;
+    margin: 20px; 
+    background-color: whitesmoke;
+}
+
+#page {
+    margin: auto;
+    box-shadow: 2px 2px 8px  #333;
+    width: 80%;
+    background-color: #fff;
+}
+
+header { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    height: 1150px;
+}
+
+#header-img img{
+    height: 1150px;
+    margin: 0;
+    padding-left: 30px;
+}
+
+header nav {
+    padding-left: 20px;
+}
+
+header nav h1 {
+    font-size: 32px;
+}
