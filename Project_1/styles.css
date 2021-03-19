@@ -103,3 +103,52 @@ section figure p {
     font-size: 16px;
     padding: 0 0 20px 0;
 }
+
+footer {
+    text-align: center;
+    color: #eee;
+    background-color: #333;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+footer address {
+    margin: 10px;
+}
+
+footer address p{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+#social-media {
+    margin-top: 40px;
+}
+
+#social-media p {
+    font-size: 18px;
+}
+
+#social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social-media ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#social-media ul li a {
+    padding-right: 10px;
+    color : #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
