@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -41,3 +42,10 @@ header nav {
 header nav h1 {
     font-size: 32px;
 }
+||||||| 140c94c
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> af52f464fd196f72d9d76827b6dd2457b3270b7a
