@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /*background-color: #000000;*/
+    /*background-image: url("Images/food.svg"), linear-gradient(150deg, rgb(58, 0, 27), rgb(16, 6, 63));*/
+    background-image: url("Images/food.svg"), linear-gradient(110deg, yellow, red);
+    background-color: #eee;
+    /*background-blend-mode: overlay;*/
+    /*min-height: calc(100vh - 100px);*/
+    background-attachment: fixed;
+    letter-spacing: -1px;
+    margin: 20px;
+}
+
+#wrapper {
+    margin: auto;
+    max-width: 900px;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    color: #eee;
+    /*color: rgb(16, 6, 73);*/
+}
+
+header  {
+    background-image: url('Images/chaat.jpg');
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header #landing-text {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 15px 0;
+}
+
+header #landing-text ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header #landing-text ul li {
+    display: inline-block;
+    margin: 2px 10px 2px 2px;
+}
+
+
+
+header #landing-text ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    color: #eee;
+}
+
+header #landing-text ul li a:hover{
+    background-color: yellow;
+    color: #333;
+}
