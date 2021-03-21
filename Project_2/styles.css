@@ -15,6 +15,8 @@ body {
     background-attachment: fixed;
     letter-spacing: -1px;
     margin: 20px;
+    background-size: 220px,
+        auto;
 }
 
 #wrapper {
@@ -35,38 +37,115 @@ header  {
     height: 100vh; 
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 
-header #landing-text {
+header #header-wrapper {
+    height: 100%;
+    width: 100%;
+    
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+#header-wrapper #navbar {
+    display: block;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     width: 100%;
-    padding: 10px 0 15px 0;
+    padding: 10px 0;
 }
 
-header #landing-text ul {
+#navbar nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-header #landing-text ul li {
+#navbar nav ul li {
     display: inline-block;
     margin: 10px;
 }
 
-
-
-header #landing-text ul li a {
+#navbar nav ul li a {
     text-decoration: none;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
-    color: #eee;
+    color: yellow;
 }
 
-header #landing-text ul li a:hover{
+#navbar nav ul li a:hover {
     background-color: yellow;
-    color: red;
+    color: orangered;
+    border-radius:  5px;
+}
+
+#header-wrapper #landing-text {
+    width: 100%;
+    margin: 40px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    font-family: 'Shadows Into Light',
+    cursive;
+    text-shadow: 1px -3px orangered;
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 0.25em;
+
+    /*
+    font-family: 'Cedarville Cursive',
+    cursive;
+    font-family: 'Comic Neue',
+    cursive;
+    font-family: 'Dawning of a New Day',
+    cursive;
+    font-family: 'Homemade Apple',
+    cursive;
+    font-family: 'Merienda',
+    cursive;
+    font-family: 'Patrick Hand SC',
+    cursive;
+    font-family: 'Shadows Into Light',
+    cursive;
+    */
+}
+
+header #header-wrapper #landing-text h1{
+    text-align: center;
+}
+
+#header-wrapper #menu-list {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+#menu-list ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center
+
+}
+
+#menu-list li {
+    display: inline-block;
+    background-color: yellow;
+    color: orangered;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 50px;
+    width: 100px; 
+}
+
+#menu-list li:hover {
+    color: black;
 }
