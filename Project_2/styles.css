@@ -15,8 +15,8 @@ body {
     background-attachment: fixed;
     letter-spacing: -1px;
     margin: 20px;
-    background-size: 220px,
-        auto;
+    background-size: 200px, auto;
+    
 }
 
 #wrapper {
@@ -27,6 +27,8 @@ body {
     background-blend-mode: overlay;
     color: #eee;
     /*color: rgb(16, 6, 73);*/
+    box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #333;
 }
 
 header  {
@@ -148,4 +150,50 @@ header #header-wrapper #landing-text h1{
 
 #menu-list li:hover {
     color: black;
+}
+
+/* ------------------------------------- */
+/* END OF HEADER */
+
+
+
+#main {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px 50px 20px 50px;
+    overflow:hidden;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+
+
+#main #intro-text {
+    float: left;
+    padding: 0;
+    width: 60%;
+}
+
+#main #intro-text img {
+    margin: 20px auto;
+}
+
+#main #intro-img img {
+    margin-bottom: 20px;
+}
+
+
+
+#main #intro-img {
+    float: left;
+    width: 40%;
+    padding: 0;
+}
+
+#main h1 {
+    text-align: center;
+    font-family: 'Patrick Hand SC',
+    cursive;
+    margin: 20px;
+    padding: 0;
+    font-size: 42px;
 }
