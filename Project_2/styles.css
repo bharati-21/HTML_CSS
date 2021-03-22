@@ -45,7 +45,8 @@ header  {
 header #header-wrapper {
     height: 100%;
     width: 100%;
-    
+    background-color: rgba(0, 0, 0, 0.7); 
+
     margin: auto;
     padding: 0;
     display: flex;
@@ -56,7 +57,6 @@ header #header-wrapper {
 
 #header-wrapper #navbar {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     width: 100%;
     padding: 10px 0;
@@ -91,13 +91,12 @@ header #header-wrapper {
     width: 100%;
     margin: 40px;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.8); 
     padding: 20px;
     font-family: 'Shadows Into Light',
     cursive;
-    text-shadow: 1px -3px orangered;
+    text-shadow: 1px -2px orange, -1px 2px rgba(255, 0, 0, 0.836);
     color: yellow;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 0.25em;
 
     /*
@@ -126,7 +125,6 @@ header #header-wrapper #landing-text h1{
     width: 100%;
     margin: auto;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
 }
 
@@ -141,10 +139,10 @@ header #header-wrapper #landing-text h1{
     display: inline-block;
     background-color: yellow;
     color: orangered;
-    padding: 10px;
-    font-size: 15px;
+    padding: 1% 0.5%;
+    font-size: 0.6em;
     font-weight: bold;
-    margin: 5px 50px;
+    margin: 1% 5%;
     width: 100px; 
 }
 
@@ -157,43 +155,37 @@ header #header-wrapper #landing-text h1{
 
 
 
-#main {
+#about-main {
     background-color: rgba(51, 51, 51, 0.8);
-    padding: 20px 50px 20px 50px;
+    padding: 30px;
     overflow:hidden;
     font-size: 15px;
     margin: 0 auto;
 }
 
-
-
-#main #intro-text {
-    float: left;
-    padding: 0;
-    width: 60%;
-}
-
-#main #intro-text img {
-    margin: 20px auto;
-}
-
-#main #intro-img img {
-    margin-bottom: 20px;
-}
-
-
-
-#main #intro-img {
-    float: left;
-    width: 40%;
-    padding: 0;
-}
-
-#main h1 {
+#about-main h1 {
     text-align: center;
-    font-family: 'Patrick Hand SC',
-    cursive;
-    margin: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 20px 30px 20px;
     padding: 0;
-    font-size: 42px;
+    text-transform: uppercase;
+    font-size: 25px;
+    word-spacing: 0.4em;
 }
+
+#about-main #intro-text img {
+    float: right;
+    height: 50vh;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+
+#about-main #intro-text p {
+    margin: 5px;
+}
+
+
+/* ------------------------------------- */
+/* END OF ABOUT */
+
+
