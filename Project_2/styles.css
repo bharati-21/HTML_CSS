@@ -89,14 +89,14 @@ header #header-wrapper {
 
 #header-wrapper #landing-text {
     width: 100%;
-    margin: 40px;
+    margin: 0;
     padding: 0;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Shadows Into Light',
     cursive;
     text-shadow: 1px -2px orange, -1px 2px rgba(255, 0, 0, 0.836);
     color: yellow;
-    font-size: 22px;
+    font-size: 28px;
     letter-spacing: 0.25em;
 
     /*
@@ -117,6 +117,24 @@ header #header-wrapper {
     */
 }
 
+@media screen and (max-width: 390px) {
+    #header-wrapper #landing-text {
+       
+        padding: 5px;
+        font-size: 22px;
+        letter-spacing: 0.12em;
+    }
+    #navbar nav ul li a {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    #menu-list li {
+        font-size: 10px;
+        padding: 1% 0.5%;
+    }
+}
+
 header #header-wrapper #landing-text h1{
     text-align: center;
 }
@@ -130,7 +148,7 @@ header #header-wrapper #landing-text h1{
 
 #menu-list ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center
 
 }
@@ -140,7 +158,7 @@ header #header-wrapper #landing-text h1{
     background-color: yellow;
     color: orangered;
     padding: 1% 0.5%;
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-weight: bold;
     margin: 1% 5%;
     width: 100px; 
