@@ -96,7 +96,7 @@ header #header-wrapper {
     cursive;
     text-shadow: 1px -2px orange, -1px 2px rgba(255, 0, 0, 0.836);
     color: yellow;
-    font-size: 28px;
+    font-size: 34px;
     letter-spacing: 0.25em;
 
     /*
@@ -159,7 +159,7 @@ header #header-wrapper #landing-text h1{
     padding: 1% 0.5%;
     font-size: 0.7em;
     font-weight: bold;
-    margin: 1% 5%;
+    margin: 1% 3%;
     width: 100px; 
 }
 
@@ -223,18 +223,81 @@ header #header-wrapper #landing-text h1{
     text-align: center;
 }
 
-#menu-main #menu-head h1 {
-    text-align: center;
-    margin: 10px;
+#menu-main #chaat-menu {
+    margin-bottom: 30px;
 }
 
-#menu-main #menu-images figure {
+#chaat-menu-head h1{
+    text-align: center;
+    margin: 5px;
+    color: whitesmoke;
+    text-shadow: 3px 2px sandybrown;
+    font-family:  'Merienda',
+    cursive;
+    font-size: 60px;
+}
+
+#chaat-menu #chaat-menu-images figure {
     display: inline-block;
     text-align: center;
     margin: 20px;
 }
 
-#menu-main #menu-images figure img {
+#chaat-menu #chaat-menu-images figure img {
     width: 30vh;
     text-align: center;
 }
+
+#menu-main hr {
+    border: 3px solid yellow;
+    border-style: groove;
+}
+
+#other-menu #other-menu-head h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Merienda', cursive;
+    text-shadow: 1px 2px sandybrown;
+}
+
+
+#other-menu-items {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#other-menu-items h3 {
+    font-size: 22px;
+    margin: 5px 5px 0 5px;
+    color: rgb(247, 247, 147);
+    font-family: Haettenschweile, sans-serif;
+}
+
+#other-menu-items p {
+    text-align: left;
+    margin: 5px 30px 30px 30px;
+    font-family: Cursive;
+    font-size: 17px;
+    word-spacing: 0.25em;
+
+}
+
+#other-menu-items img {
+    height: 25vh;
+    margin: 0 30px 30px 30px;
+    float: left;
+
+}
+
+#other-menu-items #sweets img {
+    float: right;
+}
+
+
