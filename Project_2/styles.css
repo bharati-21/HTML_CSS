@@ -303,26 +303,34 @@ header #header-wrapper #landing-text h1{
 /* ------------------------------------- */
 /* END OF MENU */
 
+#reservation {
+    background-image: url('Images/chaat_more_2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+    background-position: center;
+}
+
 #reservation-main {
-    background-color: rgba(238, 238, 238, 0.8);
     padding: 20px 30px;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 
 #reservation-head h1 {
     font-size: 42px;
-    color:rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     text-align: center;
     padding: 10px 20px;
-    text-shadow: 1px 1px brown;
+    text-shadow: 2px 1px rgb(250, 202, 113);
 }
 
 #reservation-intro p {
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
-    color: brown;
+    color: rgb(250, 202, 113);
 }
 
 #reservation-form  {
@@ -332,7 +340,7 @@ header #header-wrapper #landing-text h1{
 }
 
 #reservation-form form {
-    background-color: rgba(58, 6, 2, 0.9);
+    background-color: rgba(58, 6, 2, 0.7);
     margin: 20px auto;
     border-radius: 10px;
     
@@ -361,7 +369,7 @@ header #header-wrapper #landing-text h1{
 
 #reservation-form input[type="submit"] {
     margin:  30px auto 0px auto;
-    width: 20%;
+    width: max-content;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -374,3 +382,57 @@ header #header-wrapper #landing-text h1{
     background-color: rgb(250, 202, 113);
     color: rgba(58, 6, 2);
 }
+
+/* ------------------------------------- */
+/* END OF RESERVATION */
+
+footer {
+    background-color: white;
+    padding: 40px 40px 50px 40px;
+}
+footer h1 {
+    color: rgba(58, 6, 2);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 38px;
+    font-family: 'Comic Neue', 'Cursive';
+}
+
+#contact-main {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: black;
+}
+
+#contact-address, #contact-email, #contact-number {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#contact-main i {
+    color: darkblue;
+}
+
+#contact-main address {
+    text-align: center;
+    color:rgba(58, 6, 2);
+    font-size: 15px;
+    width: 200px;
+}
+
+#contact-main #contact-email address p a {
+    text-decoration: none;
+    color:rgba(58, 6, 2);
+    color: black;
+}
+
+#contact-main #contact-email address p a:hover {
+    color: blue;
+}
+
