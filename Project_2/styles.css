@@ -300,4 +300,77 @@ header #header-wrapper #landing-text h1{
     float: right;
 }
 
+/* ------------------------------------- */
+/* END OF MENU */
 
+#reservation-main {
+    background-color: rgba(238, 238, 238, 0.8);
+    padding: 20px 30px;
+}
+
+#reservation-head h1 {
+    font-size: 42px;
+    color:rgba(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow: 1px 1px brown;
+}
+
+#reservation-intro p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+}
+
+#reservation-form  {
+    padding: 20px;
+    font-size: 15px;
+    color: orange;
+}
+
+#reservation-form form {
+    background-color: rgba(58, 6, 2, 0.9);
+    margin: 20px auto;
+    border-radius: 10px;
+    
+    max-width: 70%;
+    padding: 30px 40px 30px 30px;
+    border: 3px solid black;
+}
+
+#reservation-form input, textarea{
+    display: block;
+    font-family: 'Courier New',
+    Courier,
+    monospace;
+    margin: 7px 0 20px 0;
+    outline: none;
+    border: 2px solid orange;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#reservation-form input:focus, textarea:focus {
+    background-color: rgb(250, 202, 113);
+    font-weight: bold;
+}
+
+#reservation-form input[type="submit"] {
+    margin:  30px auto 0px auto;
+    width: 20%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;    
+}
+
+
+#reservation-form input[type="submit"]:hover {
+    background-color: rgb(250, 202, 113);
+    color: rgba(58, 6, 2);
+}

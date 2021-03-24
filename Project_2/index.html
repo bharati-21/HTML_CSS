@@ -21,9 +21,8 @@
                             <ul>
                                 <li><a href="#about-main">About Us</a></li>
                                 <li><a href="#menu-main">Menu</a></li>
-                                <li><a href="#">Reservations</a></li>
-                                <li><a href="#">Order Online</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#reservation-main">Reservations</a></li>
+                                <li><a href="#contact-main">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -148,6 +147,45 @@
                     </div>
                 </div>
             </section>
+
+            <section>
+                <div id="reservation-main">
+                    <div id="reservation-head">
+                        <h1>Make a Reservation!</h1>
+                    </div>
+                    <div id="reservation-intro">
+                        <p>Don't want to wait for a table? Reserve a table 24 hours earlier to enjoy fine dining!</p>
+                    </div>
+                    <div id="reservation-form">
+                        <form  method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name"> 
+                            
+                            <label for="email">Email ID:</label>
+                            <input type="email" id="email"> 
+
+                            <label for="phone">Mobile Number:</label>
+                            <input type="text" id="phone">
+
+                            <label for="date">Date:</label>
+                            <input type="date" id="date"> 
+
+                            <label for="time">Time:</label>
+                            <input type="time" id="time"> 
+
+                            <label for="time">Number of Attendees:</label>
+                            <input type="number" id="time"> 
+
+                            <label for="other-info">Other Information</label>
+                            <textarea rows="5"></textarea>
+
+                            <input type="submit" value="Reserve" disabled>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
         </div>
     </body>
 </html> 
